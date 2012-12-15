@@ -1,0 +1,7 @@
+The skeleton for this was downloaded with the following:
+git clone git://github.com/opscode/chef-repo.git
+
+The Rakefile is accessed with knife, and executed against the recipe repo
+
+knife cookbook create COOKBOOK
+knife cookbook site install COOKBOOK
